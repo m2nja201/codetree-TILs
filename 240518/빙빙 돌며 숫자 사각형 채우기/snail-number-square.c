@@ -4,7 +4,7 @@
 int n, m;
 
 int in_range(int x, int y){
-    if ((x >= 0 && x < n) && (y >= 0 && y < m)) return 1;
+    if ((x >= 0 && x < m) && (y >= 0 && y < n)) return 1;
     return 0;
 }
 
